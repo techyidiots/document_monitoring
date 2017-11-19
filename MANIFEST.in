@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include document_monitoring *.css
+recursive-include document_monitoring *.csv
+recursive-include document_monitoring *.html
+recursive-include document_monitoring *.ico
+recursive-include document_monitoring *.js
+recursive-include document_monitoring *.json
+recursive-include document_monitoring *.md
+recursive-include document_monitoring *.png
+recursive-include document_monitoring *.py
+recursive-include document_monitoring *.svg
+recursive-include document_monitoring *.txt
+recursive-exclude document_monitoring *.pyc
